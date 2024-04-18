@@ -23,7 +23,7 @@
             height: 100px;
         }
 
-        .innera {
+        innera {
           background-color:transparent;
           width:100px;
           height:100px;
@@ -31,7 +31,7 @@
           box-shadow: 0 0 8px #ea4c89, inset 0 0 8px #ea4c89;
           -webkit-animation: pulse 2s linear 1s infinite;
         }
-        .innera p {
+        innera p {
           display:block;
           text-align: center;
           line-height: 100px;
@@ -51,9 +51,9 @@
 </head>
 <body>
     <div>
-    <div class="innera">
+    <div class="innera"
+        onclick=playPauseSound('audio1')>
         <p>▷</p>
-        <audio id="audio1" src="audio/111.mp3"></audio>
     </div>
         <button onclick="playPauseSound('audio1')"><img src="https://i.imgur.com/pNOp50S.png" alt="Sound 1"></button>
         <audio id="audio1" src="audio/111.mp3"></audio>
